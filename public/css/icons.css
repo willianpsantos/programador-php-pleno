@@ -1,0 +1,19 @@
+.icon-multiplicador:after {
+    content: url('/svg/icon-multiplicador.svg');
+}
+
+.icon-agricultor:after {
+    content: url('/svg/icon-agricultor.svg');
+}
+
+.icon-distribuidor:after {
+    content: url('/svg/icon-distribuidor.svg');
+}
+
+.icon-producao:after {
+    content: url('/svg/icon-producao.svg');
+}
+
+.icon-excel:after {
+    content: url('/svg/icon-excel.svg');
+}

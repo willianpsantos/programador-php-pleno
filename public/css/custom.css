@@ -1,0 +1,467 @@
+.background-login {
+    background-image: url("/img/algodao.jpg") !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    background-attachment: fixed !important;
+}
+
+body {
+    font-size: 11px !important;
+}
+
+.sidebar-toggle-box .icon-reorder {
+    margin-top:17px;
+}
+
+.metro-nav {
+    padding:7px;
+}
+
+.no-margin-left {
+    margin-left: 0px !important;
+}
+
+.no-margin-top {
+    margin-top: 0px !important;
+}
+
+.box-shadow {
+    -webkit-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+       -moz-box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+            box-shadow: 1px 0px 5px 0px rgba(0,0,0,0.75);
+}
+
+.background-gray{
+    background: rgba(226,226,226,1) !important;
+    background: -moz-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 0%, rgba(219,219,219,1) 95%, rgba(219,219,219,1) 100%) !important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(226,226,226,1)), color-stop(0%, rgba(254,254,254,1)), color-stop(0%, rgba(209,209,209,1)), color-stop(95%, rgba(219,219,219,1)), color-stop(100%, rgba(219,219,219,1))) !important;
+    background: -webkit-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 0%, rgba(219,219,219,1) 95%, rgba(219,219,219,1) 100%) !important;
+    background: -o-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 0%, rgba(219,219,219,1) 95%, rgba(219,219,219,1) 100%) !important;
+    background: -ms-linear-gradient(top, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 0%, rgba(219,219,219,1) 95%, rgba(219,219,219,1) 100%) !important;
+    background: linear-gradient(to bottom, rgba(226,226,226,1) 0%, rgba(254,254,254,1) 0%, rgba(209,209,209,1) 0%, rgba(219,219,219,1) 95%, rgba(219,219,219,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#e2e2e2', endColorstr='#dbdbdb', GradientType=0 ) !important;
+}
+
+.background-light-gray {
+    background: rgba(255,255,255,1) !important;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 62%, rgba(237,237,237,1) 100%) !important;
+    background: -webkit-gradient(left top, left bottom, color-stop(0%, rgba(255,255,255,1)), color-stop(0%, rgba(246,246,246,1)), color-stop(62%, rgba(237,237,237,1)), color-stop(100%, rgba(237,237,237,1))) !important;
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 62%, rgba(237,237,237,1) 100%) !important;
+    background: -o-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 62%, rgba(237,237,237,1) 100%) !important;
+    background: -ms-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 62%, rgba(237,237,237,1) 100%) !important;
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%, rgba(246,246,246,1) 0%, rgba(237,237,237,1) 62%, rgba(237,237,237,1) 100%) !important;
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed', GradientType=0 ) !important;
+}
+
+.login-box {
+    margin:25px auto;
+    width:100% !important;
+}
+
+.login-box .logo-kma {
+    margin-top:15px;
+    margin-bottom: 8px;
+    width: 80px;
+}
+
+.login-box .logo-company {
+    width: 150px;
+}
+
+.loading {
+    position: fixed;
+    left: 0px;
+    top: 0px;
+    width: 100%;
+    height: 100%;
+    z-index: 20000;
+    background: url(../img/Preloader_2.gif) center no-repeat #fff;
+}
+
+span.k-widget.k-dropdown.k-header {
+    background-color:#fff;
+    display:inline-flex;
+    margin-right: 3px;
+}
+
+span.k-dropdown-wrap,
+span.k-dropdown,
+span.k-datepicker{
+    width:100%;
+}
+
+span.k-dropdown-wrap,
+span.k-datepicker{    
+    margin-right: 3px;
+}
+
+span.k-widget.k-dropdown.k-header button {
+    background-color:#fff;
+    display:inline-flex;
+    margin-right: 3px;
+    width:15px;
+}
+
+span.k-widget.k-dropdown.k-header button > i {
+    margin-left: -6px;
+}
+
+ul.k-pager-numbers li {
+    line-height: 2.3 !important;
+}
+
+.k-tabstrip:focus {
+    box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    -moz-box-shadow: none !important;
+}
+
+.k-grid {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif !important;
+}
+
+.k-grid-content tr[role=row] {
+    cursor: pointer;
+}
+
+.k-grid-header th[role=columnheader] {
+    background-color: white;
+    font-weight: 600;
+}
+
+.form-vertical .buttons,
+[role=gridcelll] .buttons {    
+    height: 80px;
+    width: 100%;
+    float:none;
+    margin: 0 auto;
+}
+
+.form-vertical .buttons .icon-btn,
+[role=gridcell] .buttons .icon-btn {    
+    height: 60px;
+    width: 120px; 
+    padding-top: 8px;   
+    background: #036667 !important;
+    color: white !important;
+}
+
+.form-vertical .buttons > .icon-btn > i
+[role=gridcell] .buttons > .icon-btn > i {    
+    color: white !important;
+}
+
+.form-vertical .buttons > #btnSave, 
+.form-vertical .buttons > #btnEdit,
+.form-vertical .buttons > #btnAdd,
+
+[role=gridcell] .buttons > #btnSave, 
+[role=gridcell] .buttons > #btnEdit,
+[role=gridcell] .buttons > #btnAdd {    
+    background: #036667 !important;
+}
+
+.form-vertical .buttons > #btnCancel, 
+.form-vertical .buttons > #btnDelete,
+.form-vertical .buttons > #btnClear,
+
+[role=gridcell] .buttons > #btnCancel, 
+[role=gridcell] .buttons > #btnDelete,
+[role=gridcell] .buttons > #btnClear {        
+    background: #da4f49 !important;
+}
+
+.form-vertical .buttons > #btnApprove,
+[role=gridcell] .buttons > #btnApprove {     
+    background: #87bb33 !important;
+}
+
+.form-vertical .buttons > #btnActivate,
+[role=gridcell] .buttons > #btnActivate {
+    background: #74af7b !important;
+}
+
+.form-vertical .buttons > #btnDisapprove, 
+[role=gridcell] .buttons > #btnDisapprove {
+    background: #fb9800 !important;
+}
+
+.form-vertical .buttons > #btnInactivate, 
+[role=gridcell] .buttons > #btnInactivate {
+    background: #b1b2a9 !important;
+}
+
+.hidden {
+    display: none !important;
+}
+
+.shown {
+    display: block !important;
+}
+
+.k-error{
+    border:1px solid #dc000c !important;
+    border-color:#dfccc5;
+    border-top-color:#beaaa3;
+}
+
+.icon-error {
+    margin:0 6px;
+    vertical-align:middle;
+    color:#b22222;
+    line-height:25px;
+    right:inherit;
+    top:0
+}
+
+.required:after {
+    content: "*";
+    font-size: 12px;
+    vertical-align: middle;
+    line-height: 12px;
+    font-weight: bold;
+    position: relative;
+    color: #FF0000;
+    margin-left: 5px;
+    margin-top: 2px;
+}
+
+.logo {
+    color: white !important;
+}
+
+span.logo {
+    width: 580px !important; 
+}
+
+img.logo {
+    float: left;
+    width: 120px; 
+    height: 56px; 
+    margin-top: -16px; 
+    /* margin-left: -15px; */
+}
+
+div.logo {
+    float: left; 
+    clear: right; 
+    font-size: 18px; 
+    margin-left: 15px; 
+    font-family: 'Open Sans', sans-serif;
+}
+
+.k-dropdown-wrap {
+    padding: 0.58em !important;
+}
+
+.k-picker-wrap {
+    padding: 0.2em;
+}
+
+.font-green {
+    color: #00c853;
+}
+
+.font-red {
+    color: #cc3640;
+}
+
+li.k-file:hover {
+    background-color:#d8d8d8;
+}
+li.k-file i {
+    /*transition*/
+    -webkit-transition: 0.5s all ease;
+    -moz-transition: 0.5s all ease;
+    -o-transition: 0.5s all ease;
+    transition: 0.5s all ease;
+}
+
+li.k-file i:hover {
+    color: #fff;
+    text-shadow: 0 0 25px #666,                
+		 0 0 25px #666,                
+		 0 0 25px #666,                
+		 0 0 25px #666,                
+		 0 0 25px #666,                
+		 0 0 12px #000,                
+		 0 0 12px #000,                
+		 0 0 12px #000,               
+		 0 0 12px #000,                
+		 0 0 12px #000;
+}
+
+.dropdown-menu.extended {
+    width: 190px !important;
+}
+
+.dropdown-menu li {
+    padding: 5px !important;    
+}
+
+
+.k-tabstrip>.k-content {
+    overflow:  hidden;
+}
+
+/*.input-block-level {
+    height: 40px !important;
+}*/
+
+.k-multiselect-wrap {
+    margin: 5px;
+}
+
+.k-multiselect ul li.k-button {
+    margin:3px;
+}
+
+li.sub-menu > a {
+    text-align: left !important;
+}
+
+.login-footer {    
+   width: 100%;
+   height: 120px;
+   background-color: #404040;
+   position: absolute;
+   bottom:0;
+   margin:0;
+   left:0;
+}
+
+.login-footer img {
+    max-width: 84px;
+    max-height: 84px;
+    margin-top: 20px;
+    object-fit: contain;
+}
+
+.logo_inspectorate_cinza {
+  width: 75px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.kuhlmann_logo_cinza {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.logo_schutter_cinza {
+  width: 84px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.SOBRE-A-KUHLMANN {
+  width: 130px;
+  height: 18px;
+  font-size: 13px;
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+}
+
+.CONTATO {
+  width: 61px;
+  height: 18px;
+  font-size: 13px;
+  color: #ffffff;
+  position: relative;
+  top: 50px;
+}
+
+.login-footer a:hover,a:focus,a:active {
+    /*text-decoration: none;*/
+    color: #fff;
+}
+
+.-Kuhlmann {
+  width: 104px;
+  height: 17px;
+  font-size: 12px;
+  font-weight: 600;
+  text-align: center;
+  color: #87878a;
+  position: relative;
+  top: 90px;
+}
+
+input[data-role=numericeditor] {
+    height: 40px !important;
+}
+
+.k-tabstrip-wrapper .form-vertical input[data-role=numericeditor] {
+    height: 30px !important;
+}
+
+.login-box .box-shadow {
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.font-white {
+    color: #fff !important;
+}
+
+.font-white > h1,
+.font-white > h2,
+.font-white > h3,
+.font-white > h4,
+.font-white > h5,
+.font-white > h6,
+.font-white > h7 {
+    color: #fff !important;
+}
+
+.menu-card {
+    display: inline-block;    
+    margin:5px;
+    clear:right;
+}
+
+.menu-card  .info {
+    float:right;
+    font-size: 22px;    
+    color:white;
+    word-wrap: break-word;
+    width: 150px;
+    text-align: right;    
+    line-height: 27px;
+    margin-top: -25px;
+}
+
+.info .small {
+    font-size: 10px !important;
+}
+
+[role=gridcell] .k-dropdown .k-button {
+    width: 20px !important;
+    min-width: 10px !important;
+}
+
+.btn-info {
+    background: #78c4db;
+}
+
+.grid-toolbar {
+    margin: 5px;
+    margin-right: 15px;
+    float: right;
+}
+
+.grid-toolbar button {
+    width: 38px !important;
+    height: 38px !important;
+    padding: 0px !important;
+    background: transparent;
+    margin-top:-6px;    
+}
+
+.grid-toolbar button i {
+    width: 100% !important;
+    height: 100% !important;
+    margin:0 !important;
+    padding: 0 !important;
+}

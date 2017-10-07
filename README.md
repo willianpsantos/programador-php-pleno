@@ -1,62 +1,24 @@
-# Teste prático - Programador(a) PHP Pleno – Laravel
+## Instruções para Instalação e Execução
 
-[![N|Biologia Total](https://site.biologiatotal.com.br/wp-content/themes/biologia/assets/images/logo-colorido.png)](https://site.biologiatotal.com.br/)
+* Crie uma base de dados com o nome de <b> biologia_total </b>
 
-**Desenvolver uma aplicação simples utilizando [Laravel 5](https://laravel.com/).**
-O objetivo desta avaliação é medir o nível de conhecimento do candidato nas áreas em que a vaga será exigida.
+* Configure os dados de acesso a sua base de dados no arquivo <b> .env </b> da sua aplicação (usuario, senha, porta e host)
 
-# Escopo
-Deve-se criar uma aplicação em PHP para resolver o problema descrito abaixo, utilizando framework Laravel 5. Fique a vontade para explorar todo o seu conhecimento em automação de tarefas, CSS e Javascript com JQuery, Vue.JS, Angular ou qualquer outra ferramenta.
+* Execute as <b> migrations </b> da aplicaçao acessando o diretório da aplicação no seu computador pelo prompt de comando do seu sistema operacional e em seguida execute o comando:
 
-# Cenário fictício
-Prof. Jubilut está lançando uma nova plataforma de ensino online. Nesta plataforma, desejamos realizar a matrícula de alunos em cursos através de um painel administrativo. 
+  php artisan migrate 
 
+* Execute comandos de limpeza do artisan:
+    php artisan view:clear
+    php artisan cache:clear
+    php artisan config:clear
+    php artisan config:cache
 
-# Requisitos
-- Um aluno pode ser matriculado em mais de um curso
-- O administrador do sistema que realizará as matrículas. Não é necessário desenvolver tela para alunos.
-- A consulta pelo nome e pelo e-mail é requisito funcional
-- Não é necessário desenvover tela de login / autenticação. 
+## Breve explicativo sobre o projeto
 
-#### CRUD de Áreas de Cursos
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma área de curso (Biologia, Química, Física, por exemplo). 
+O sistema em questão consiste de uma aplicação voltada para o gerenciamento online de matriculas nos cursos oferecidos pelo professor Jubilut.
 
-##### Atributos de um Curso são:
-- título (obrigatório)
-- descrição 
+O sistema foi desenvolvido com o framework Laravel 5.4. Além disso, contamos com frameworks front-end, tais como o Kendo UI, jQuery e RequireJS, além de bibliotecas javascript desenvolvidas por mim mesmo para facilitar o desenvolvimento.
 
-#### CRUD de Alunos
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar um Aluno. 
-
-##### Atributos de um Aluno são:
-- nome (obrigatório)
-- email (obrigatório)
-- data de nascimento
-
-#### CRUD de Matrículas
-Criar um gerenciamento aonde seja possível Criar, Listar, Editar e Visualizar uma matrícula. 
-
-# Instruções:
-
-- Faça fork desse repositório envie-nos um Pull Request quando estiver pronto.
-- Deve ser utilizado o Laravel como framework PHP
-- Deve ser utilizado o Composer para gerenciar as dependências da aplicação. 
-- Crie um README com orientações para a instalação.
-
-# Plus ++ 
-- Cubra pelo menos 3 recursos de seu código com testes unitários.
-- Utilize as melhores práticas da Orientação a Objetos.
-- As tabelas do banco de dados criadas através de migrations.
-- Pretendemos conectar um aplicativo mobile nesta nova plataforma. 
-
-
-# Observações:
-
-- Não tenha pressa! O que será avaliado é a qualidade do código não a velocidade de desenvolvimento. Portanto, qualquer generator / scaffolding de CRUD, MVC, etc, torna-se desnecessário. 
-- Se não for possível terminar todas as funcionalidades, não tem problema.
-- Seu código-fonte não precisa ser bonito ou ter um UX excelente. Você pode optar por templates para o frontend, se assim desejar.
-- Não precisa ser complexo, com varias lib’s e etc. O legal é usar o necessário para ter um código de qualidade e de fácil evolução. 
-- Lembrando código de qualidade, você pode e deve fazer o que achar necessário para isso, mesmo que não esteja listado aqui. 
-- 
-
-Em caso de dúvidas, envie-nos um e-mail para rh@biologiatotal.com.br 
+O sistema segue o padrão de projeto MVVM.
+O sistema é uma aplicação de página única (SPA - Single Page Application)

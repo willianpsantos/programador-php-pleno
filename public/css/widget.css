@@ -1,0 +1,29 @@
+.widget {
+    margin: 8px !important;    
+}
+
+.widget-body {
+    padding: 0px !important;
+    box-sizing: border-box !important;
+}
+
+.widget-title {
+    height: 20px !important;
+    padding: 5px;
+    color: #5d5d5d;
+    font-weight: 300;
+    font-size: 12pt;
+    font-family: 'MyriadPro-Light';
+}
+
+.container-group {
+    padding: 0 !important;
+}
+
+.group-title {
+    height: 45px !important;
+}
+
+.group-body {
+    padding:15px !important;
+}

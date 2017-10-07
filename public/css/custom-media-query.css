@@ -1,0 +1,52 @@
+@media only screen and (max-width:440px) {
+    .metro-nav .metro-nav-block {
+        width:100% !important;
+    }
+}
+
+@media only screen and (max-width: 670px) {
+    .login-box .btn {
+        font-size: 11px;
+    }
+    
+    .login-box .control-label {
+        margin-left: 15px;
+        float:none;
+    }
+    
+    a.logo {
+        width: 280px !important;
+    }
+    
+    div.logo {
+        font-size: 14px !important;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    a.logo {
+        width: 60px !important;
+    }
+    
+    div.logo {
+        display:none;
+    }
+}
+
+@media only screen and (max-width:991px) {
+    .login-box .control-label {
+        float:none;
+        text-align: left; 
+        margin-left: 15px;
+    }
+    
+    div.logo {
+        font-size: 24px !important;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+    .metro-nav .metro-nav-block {
+        width:21.5%;
+    }
+}

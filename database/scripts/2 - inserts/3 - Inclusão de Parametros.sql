@@ -1,0 +1,16 @@
+insert into parametros(chave, valor) values('TIPO-ENTIDADE-MULTIPLICADOR', '1');
+insert into parametros(chave, valor) values('TIPO-ENTIDADE-COOPERADO', '7');
+insert into parametros(chave, valor) values('TIPO-ENTIDADE-OBTENTOR', '6');
+insert into parametros(chave, valor) values('TIPO-RESPONSAVEL-LEGAL', '2');
+insert into parametros(chave, valor) values('TIPO-RESPONSAVEL-TECNICO', '1');
+insert into parametros(chave, valor) values('TIPO-ENTIDADE-AGRICULTOR', '3');
+insert into parametros(chave, valor) values('TIPO-RESPONSAVEL-COMERCIAL', '4');
+insert into parametros(chave, valor) values('TIPO-ENTIDADE-DISTRIBUIDOR', '2');
+insert into parametros(chave, valor) values('TIPO-RESPONSAVEL-UBS', '3');
+insert into parametros(chave, valor) values('QTD-DIAS-EXPIRACAO-RESET-SENHA', '1');
+insert into parametros(chave, valor) values('TIPO-MOVIMENTACAO-ENTRADA-LOTE', '7');
+insert into parametros(chave, valor) values('TIPO-MOVIMENTACAO-VENDA', '1');
+insert into parametros(chave, valor) values('TIPO-MOVIMENTACAO-DESCARTE', '2');
+insert into parametros(chave, valor) values('TIPO-MOVIMENTACAO-PERDA', '4');
+insert into parametros(chave, valor) values('TIPO-MOVIMENTACAO-SAIDA-TRANSFERENCIA', '8');
+insert into parametros(chave, valor) values('TIPO-MOVIMENTACAO-ENTRADA-TRANSFERENCIA', '9');

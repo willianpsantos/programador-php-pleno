@@ -1,0 +1,40 @@
+delete from reportes_producao_area_inscrita;
+delete from reportes_producao_cultivar;
+delete from areas_inscritas;
+delete from ams;
+delete from ams_areas_inscritas;
+delete from biotecnologias;
+update lotes set idremessa_entrada= null;
+delete from remessas;
+delete from lotes;
+delete from cultivares;
+delete from culturas;
+delete from datas_lancamento;
+delete from fazendas;
+delete from germoplasmas;
+delete from historico;
+delete from historico_situacao;
+delete from historico_aprovacao;
+delete from logs;
+delete from pessoa_aditivos;
+delete from pessoa_contratos;
+delete from pessoa_emails;
+delete from pessoa_enderecos;
+delete from pessoa_gla;
+delete from pessoa_responsaveis;
+delete from pessoa_telefones;
+delete from negativas_cadastro;
+delete from safras;
+delete from usuario_pessoas;
+delete from vendedores;
+delete from grupos_economicos;
+update pessoas set idpessoa_empresa = null, idpessoa_matriz = null;
+delete from pessoas;
+delete from documentos;
+delete from pms;
+delete from ptax;
+delete from regiao_estados;
+delete from regioes;
+
+
+
